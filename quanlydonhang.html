@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUAN LY DON HANG</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class="admin">
+        <div class="row-grid">
+            <div class="admin-sidebar">
+                <div class="admin-sidebar-top">
+                    <img src="./images/logo1.png" alt="">
+                </div>
+                <div class="admin-sidebar-content">
+                    <div class="img-admin">
+                        <img style="width: 120px;"
+                            src="https://png.pngtree.com/element_our/20190604/ourlarge/pngtree-user-avatar-boy-image_1482937.jpg"
+                            alt="">
+                        <p>ADMIN</p>
+                    </div>
+                    <ul>
+                        <li></li>
+                        <li><a href="./admin.html"><i class='bx bxs-dashboard'></i>Dashboard</a></li>
+                        <li><a href="./quanlytaikhoan.html"><i class='bx bx-list-ul'></i>Quản lý tài khoản</a></li>
+                        <li><a href="./quanlydonhang.html"><i class='bx bx-list-ul'></i>Quản lý Đơn Hàng</i></a></li>
+                        <li><a href="./quanlysanpham.html"><i class='bx bx-list-ul'></i>Quản lý Sản Phẩm</i></a></li>
+                        <li><a href="./thongke.html"><i class='bx bx-list-ul'></i>Thống kê</a></li>
+                        <li><a href="#"><i class='bx bxs-user '></i>Đăng xuất</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- content----------------------->
+            <div class="admin-content">
+                <div class="admin-content-top">
+                    <div class="admin-content-top-left">
+                        <ul class="flex-box">
+                            <li><i class='bx bx-search'></i></li>
+                            <li><i class='bx bx-registered'></i></li>
+                        </ul>
+                    </div>
+
+                    <div class="admin-content-top-right">
+                        <ul class="flex-box">
+                            <li><i class='bx bx-cart'></i number="15"></li>
+                            <li><i class='bx bx-bell'></i number="6"></li>
+                            <li><i class='bx bxs-chat'></i number="6"></li>
+                            <li class="flex-box">
+                                <img style="width: 75px;" src="./images/logo.jpeg" alt="">
+                                <p><i class='bx bxs-down-arrow'></i></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="admin-content-main">
+                    <div class="admin-content-main-title">
+                        <h1>Danh sách đơn hàng</h1>
+                    </div>
+                    <div class="admin-content-main-content">
+                        <div class="admin-content-main-content-order-list">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Tên</th>
+                                        <th>Email</th>
+                                        <th>Số điện thoaị</th>
+                                        <th>Địa chỉ</th>
+                                        <th>Ghi chú</th>
+                                        <th>Chi tiết</th>
+                                        <th>Ngày</th>
+                                        <th>Trạng thái</th>
+                                        <th>Tuỳ biến</th>
+                                    </tr>
+                                <tbody>
+                                    <tr>
+                                        <td>#1</td>
+                                        <td>Lê Quang Viên</td>
+                                        <td>lequangvien342@gmail.com</td>
+                                        <td>099999999</td>
+                                        <td>37, Nguyễn Hữu Thọ, Đà Nẵng</td>
+                                        <td>Giao nhanh</td>
+                                        <td><a class="edit-class" href="">Chi tiết</a></td>
+                                        <td>20/2/2024</td>
+                                        <td><a class="confirm-order" href="">Đã xác nhận</a></td>
+                                        <td><a class="delete-class" href="">Xoá</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#2</td>
+                                        <td>Lê Trần Thái Tuyên</td>
+                                        <td>thaituyen@gmail.com</td>
+                                        <td>088888899</td>
+                                        <td>120, Hàm Nghi, Đà Nẵng</td>
+                                        <td>Giao nhanh</td>
+                                        <td><a class="edit-class" href="">Chi tiết</a></td>
+                                        <td>20/2/2024</td>
+                                        <td><a class="confirm-order" href="">Đã xác nhận</a></td>
+                                        <td><a class="delete-class" href="">Xoá</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#3</td>
+                                        <td>Nguyễn Hữu Thiên</td>
+                                        <td>huuthien03@gmail.com</td>
+                                        <td>0111111111</td>
+                                        <td>124, Hải Hồ, Đà Nẵng</td>
+                                        <td>Giao nhanh</td>
+                                        <td><a class="edit-class" href="">Chi tiết</a></td>
+                                        <td>20/2/2024</td>
+                                        <td><a class="confirm-order" href="">Đã xác nhận</a></td>
+                                        <td><a class="delete-class" href="">Xoá</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#4</td>
+                                        <td>Nguyễn An Phú</td>
+                                        <td>anphu2003@gmail.com</td>
+                                        <td>0222222222</td>
+                                        <td>125, Lê Duẫn, Đà Nẵng</td>
+                                        <td>Giao nhanh</td>
+                                        <td><a class="edit-class" href="">Chi tiết</a></td>
+                                        <td>20/2/2024</td>
+                                        <td><a class="confirm-order" href="">Đã xác nhận</a></td>
+                                        <td><a class="delete-class" href="">Xoá</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#5</td>
+                                        <td>Hồ Phúc Tâm</td>
+                                        <td>phuctam431@gmail.com</td>
+                                        <td>0333333333</td>
+                                        <td>98, Lý Thường Kiệt, Đà Nẵng</td>
+                                        <td>Giao nhanh</td>
+                                        <td><a class="edit-class" href="">Chi tiết</a></td>
+                                        <td>21/2/2024</td>
+                                        <td><a class="confirm-order" href="">Đã xác nhận</a></td>
+                                        <td><a class="delete-class" href="">Xoá</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#6</td>
+                                        <td>Nguyễn Thành long</td>
+                                        <td>thanhlong223@gmail.com</td>
+                                        <td>0997777888</td>
+                                        <td>124, Hải Hồ, Đà Nẵng</td>
+                                        <td>Giao nhanh</td>
+                                        <td><a class="edit-class" href="">Chi tiết</a></td>
+                                        <td>21/2/2024</td>
+                                        <td><a class="confirm-order" href="">Đã xác nhận</a></td>
+                                        <td><a class="delete-class" href="">Xoá</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#7</td>
+                                        <td>Trần Đình Long</td>
+                                        <td>dinhlong03@gmail.com</td>
+                                        <td>0996666669</td>
+                                        <td>155, Nguyễn Văn linh, Đà Nẵng</td>
+                                        <td>Giao nhanh</td>
+                                        <td><a class="edit-class" href="">Chi tiết</a></td>
+                                        <td>22/2/2024</td>
+                                        <td><a class="confirm-order" href="">Đã xác nhận</a></td>
+                                        <td><a class="delete-class" href="">Xoá</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#8</td>
+                                        <td>Nguyễn Văn Nhật</td>
+                                        <td>minhnhat112@gmail.com</td>
+                                        <td>0991234999</td>
+                                        <td>137, Lê Đại Hành, Đà Nẵng</td>
+                                        <td>Giao nhanh</td>
+                                        <td><a class="edit-class" href="">Chi tiết</a></td>
+                                        <td>22/2/2024</td>
+                                        <td><a class="confirm-order" href="">Đã xác nhận</a></td>
+                                        <td><a class="delete-class" href="">Xoá</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#9</td>
+                                        <td>Lê Thị Huệ</td>
+                                        <td>lethihue03@gmail.com</td>
+                                        <td>0333999599</td>
+                                        <td>77, Trưng Nữ Vương, Đà Nẵng</td>
+                                        <td>Giao nhanh</td>
+                                        <td><a class="edit-class" href="">Chi tiết</a></td>
+                                        <td>23/2/2024</td>
+                                        <td><a class="confirm-order" href="">Đã xác nhận</a></td>
+                                        <td><a class="delete-class" href="">Xoá</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#10</td>
+                                        <td>Trần Thị Ngọc Khánh</td>
+                                        <td>khanh@gmail.com</td>
+                                        <td>0123999999</td>
+                                        <td>66, 30-4, Đà Nẵng</td>
+                                        <td>Giao nhanh</td>
+                                        <td><a class="edit-class" href="">Chi tiết</a></td>
+                                        <td>23/2/2024</td>
+                                        <td><a class="no-confirm" href="">Chưa xác nhận</a></td>
+                                        <td><a class="delete-class" href="">Xoá</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#11</td>
+                                        <td>Trần Thi Lan Hương</td>
+                                        <td>huong@gmail.com</td>
+                                        <td>0129669999</td>
+                                        <td>256, Trần Phú, Đà Nẵng</td>
+                                        <td>Giao nhanh</td>
+                                        <td><a class="edit-class" href="">Chi tiết</a></td>
+                                        <td>23/2/2024</td>
+                                        <td><a class="no-confirm" href="">Chưa xác nhận</a></td>
+                                        <td><a class="delete-class" href="">Xoá</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>#12</td>
+                                        <td>Nguyễn Đăng Phúc Lộc</td>
+                                        <td>dung@gmail.com</td>
+                                        <td>0999123459</td>
+                                        <td>175, Võ Nguyên Giáp, Đà Nẵng</td>
+                                        <td>Giao nhanh</td>
+                                        <td><a class="edit-class" href="">Chi tiết</a></td>
+                                        <td>23/2/2024</td>
+                                        <td><a class="no-confirm" href="">Chưa xác nhận</a></td>
+                                        <td><a class="delete-class" href="">Xoá</a></td>
+                                    </tr>
+
+
+
+                                </tbody>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/admin.js"></script>
+</body>
+
+</html>
